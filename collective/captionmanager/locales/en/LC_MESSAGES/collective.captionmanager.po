@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.captionmanager\n"
-"POT-Creation-Date: 2010-11-10 11:05+0000\n"
+"POT-Creation-Date: 2012-07-26 16:18+0000\n"
 "PO-Revision-Date: 2008-02-04 18:00+0000\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
@@ -14,3 +14,54 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.captionmanager\n"
+
+#: ./browser/captionstransformer_view.py:40
+msgid "Captions transformer form"
+msgstr ""
+
+#: ./browser/captionsfromyoutube_view.py:39
+msgid "Downlaod"
+msgstr ""
+
+#: ./browser/captionstransformer_view.py:42
+msgid "Transform"
+msgstr ""
+
+#: ./browser/captionsfromyoutube_view.py:37
+msgid "Youtube caption download form"
+msgstr ""
+
+#: ./browser/captionstransformer_view.py:22
+msgid "input file"
+msgstr ""
+
+#: ./browser/captionstransformer_view.py:28
+msgid "input format"
+msgstr ""
+
+#: ./browser/captionsfromyoutube_view.py:25
+msgid "input link"
+msgstr ""
+
+#: ./browser/captionstransformer_view.py:25
+msgid "input text"
+msgstr ""
+
+#: ./browser/captionstransformer_view.py:29
+msgid "input_format_description"
+msgstr ""
+
+#: ./browser/captionsfromyoutube_view.py:30
+#: ./browser/captionstransformer_view.py:33
+msgid "output format"
+msgstr ""
+
+#: ./browser/captionsfromyoutube_view.py:27
+msgid "output language"
+msgstr ""
+
+#: ./browser/captionsfromyoutube_view.py:31
+#: ./browser/captionstransformer_view.py:34
+msgid "output_format_description"
+msgstr ""
+

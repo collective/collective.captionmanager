@@ -13,11 +13,6 @@ format_vocabulary = SimpleVocabulary([
     SimpleTerm(transform, transform, unicode(transform))\
     for transform in transformers])
 
-output_mode_vocabulary = SimpleVocabulary([
-    SimpleTerm('display', 'display', _(u'Display')),
-    SimpleTerm('download', 'download', _(u'Downlaod'))])
-
-
 class LanguageVocabulary(object):
     interface.implements(IVocabularyFactory)
 
