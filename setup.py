@@ -29,6 +29,7 @@ setup(name='collective.captionmanager',
       install_requires=[
           'setuptools',
           'captionstransformer',
+          'plone.namedfile',
           # -*- Extra requirements: -*-
       ],
       extras_require = dict(

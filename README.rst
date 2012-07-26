@@ -13,10 +13,10 @@ This addon do not extract captions from video binary files.
 Tools
 =====
 
-@@captionstransformer form let you convert your captions from one format to
+@@captionstransformer_view form let you convert your captions from one format to
 another, either using copy paste in a textarea or by uploading a file.
 
-@@captions-from-youtube form let you paste a link and choose which format you
+@@captionsfromyoutube_view form let you paste a link and choose which format you
 want.
 
 How to install

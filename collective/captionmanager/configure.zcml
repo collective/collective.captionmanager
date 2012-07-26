@@ -19,6 +19,9 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <include file="upgrades.zcml" />
-
+  <utility
+    component=".vocabulary.LanguageVocabularyFactory"
+    name="collective.captionmanager.vocabulary.languages"
+    />
 
 </configure>
