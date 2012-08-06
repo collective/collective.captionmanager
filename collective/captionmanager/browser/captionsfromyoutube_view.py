@@ -73,6 +73,18 @@ class FormAdapter(object):
     def __init__(self, context):
         self.context = context
 
+    @property
+    def input_link(self):
+        if hasattr(self.context, 'portal_type') and \
+           self.context.portal_type == 'Link':
+            return self.context.getRemoteUrl()
+
+    @property
+    def output_language(self):
+        lang = self.context.Language()
+        if lang:
+            return lang
+
 
 class CaptionsFromYoutubeView(layout.FormWrapper):
     form = Form

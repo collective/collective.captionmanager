@@ -15,6 +15,7 @@
       layer=".interfaces.ILayer"
       permission="zope2.View"
       />
+
   <adapter
     for="*"
     factory=".captionstransformer_view.FormAdapter"/>
@@ -27,6 +28,7 @@
       layer=".interfaces.ILayer"
       permission="zope2.View"
       />
+
   <adapter
     for="*"
     factory=".captionsfromyoutube_view.FormAdapter"/>
